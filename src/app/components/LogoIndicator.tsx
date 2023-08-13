@@ -7,7 +7,7 @@ export const LogoIndicator = () => {
   return (
     <div className='absolute z-[-1] h-[100%] top-0 left-0 bottom-0 right-0 flex items-center justify-center '
       style={{
-        transform: `translateY(${-scroll * 2}px)`,
+        transform: `translateY(${-scroll * 0.5}px)`,
         opacity:`${opacity}%`,
       }}
     >

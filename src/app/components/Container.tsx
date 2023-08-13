@@ -17,7 +17,7 @@ export const Container = ({children} : {children: ReactNode}) => {
     
     const observer = new IntersectionObserver(callbackFunction, {
       root: null,
-      threshold: 0.5
+      threshold: 0.6
     })
     if (containerEl) observer.observe(containerEl)
 

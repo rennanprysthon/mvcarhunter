@@ -1,6 +1,5 @@
 'use client'
 
-import { BackgroundImage } from "./components/BackgroundImage";
 import { Container } from "./components/Container";
 import { Header } from "./components/Header";
 import { LogoIndicator } from "./components/LogoIndicator";
@@ -13,7 +12,6 @@ export default function Home() {
     <MainContainer>
       <RelativeContainer>
         <LogoIndicator />
-        <BackgroundImage />
       </RelativeContainer>
       
       <Container>
