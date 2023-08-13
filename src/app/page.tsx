@@ -18,7 +18,6 @@ export default function Home() {
       
       <Container>
         <Header />
-        <h1>Titulo importante da pagina</h1>
       </Container>
     </MainContainer>
   );

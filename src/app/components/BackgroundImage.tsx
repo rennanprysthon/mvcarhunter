@@ -11,12 +11,13 @@ export const BackgroundImage = () => {
   return (
     <div className={`
       absolute
-      h-[100%] 
-      border-solid 
-      border-green-400       
-      bottom-0
-      flex
       z-[-1]
+      h-[100%] 
+      bottom-0
+      right-0
+      left-0
+      flex
+      justify-center
     `} style={{
       transform: `translateY(${scroll * 0.5}px)`,
       opacity:`${opacity}%`,
